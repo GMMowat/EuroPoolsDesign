@@ -19,8 +19,6 @@
 /* Mobile colums will display at 100% width so they cover the entire device from left to right*/
 [class*="col-"] {
   width: 100%;
-  text-align: center;
-  border-style: solid;
 }
 
 /*Checks if the screen is bigger than 768 pixels and changes the width of the .col- class accordingly*/
