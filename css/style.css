@@ -1,1 +1,23 @@
 /*The Beggining of the style.css file which will contain all of our styling code */
+* {
+    box-sizing: border-box;
+}
+
+/* After each row place white space clear both sides so no content clips it. */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Every col- class will have a left float so that content can wrap around the left hand side the colum will have a padding of 15px giving space within each div */
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+/* Mobile colums will display at 100% width so they cover the entire device from left to right*/
+[class*="col-"] {
+  width: 100%;
+  background-color: blue; /*Added temporary background color to the col- class so that I can see how the spacing looks */
+}
