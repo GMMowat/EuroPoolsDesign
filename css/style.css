@@ -14,12 +14,6 @@ body{
   display: table;
 }
 
-.row {
-  background-color: blue;
-  width: 100%;
-  margin: 0;
-}
-
 /* Every col- class will have a left float so that content can wrap around the left hand side the colum will have a padding of 15px giving space within each div */
 [class*="col-"] {
   float: left;
