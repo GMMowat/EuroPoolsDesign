@@ -8,6 +8,10 @@ body, html{
     box-sizing: border-box;
 }
 
+.row {
+  padding: 100px;
+}
+
 /* After each row place white space clear both sides so no content clips it. */
 .row::after {
   content: "";
@@ -26,7 +30,53 @@ body, html{
   width: 100%;
 }
 
-.parallax {
+.side-nav {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  position: fixed;
+  width: 0;
+  height: 100%;
+  letter-spacing: 2px;
+  font-size: 130%;
+  transition: 0.6s;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 100px;
+  background: rgba(200, 54, 54, 0.5);
+}
+
+.side-nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 8px 0px 8px 0px;
+  font-size: 25px;
+}
+
+.side-nav a:hover {
+  color: red;
+}
+
+.close-menu {
+  position: absolute;
+  top: 0;
+  left: 90%;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.open-menu {
+  position: fixed;
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 30px;
+  z-index: 1;
+}
+
+.background-image {
 /* The image used */
 background-image: url("http://innovations-design.org/wp-content/uploads/2016/06/ent-lazyriver2-1920x1080-opt.jpg");
 /* Set a specific height */
