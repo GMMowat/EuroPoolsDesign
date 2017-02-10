@@ -8,8 +8,10 @@ body, html{
     box-sizing: border-box;
 }
 
-.row {
-  padding: 100px;
+h1, h2 {
+  text-align: center;
+  line-height: 1.2;
+  font-size: 20px;
 }
 
 /* After each row place white space clear both sides so no content clips it. */
@@ -30,11 +32,28 @@ body, html{
   width: 100%;
 }
 
+.header {
+  top: 0;
+  left: 0;
+  min-height: 50px;
+  width: 100%;
+  color: black;
+  position: relative;
+  z-index: 1;
+  padding: 0px 15px 0px 15px;
+    transition: all 0.6s ease;
+}
+
+.site-title {
+  float: left;
+}
+
 .side-nav {
   background-color: blue;
   color: white;
   text-align: center;
   position: fixed;
+  top: 0;
   width: 0;
   height: 100%;
   letter-spacing: 2px;
@@ -63,32 +82,22 @@ body, html{
   top: 0;
   left: 90%;
   font-size: 36px;
-  cursor: pointer;
 }
 
 .open-menu {
-  position: fixed;
-  padding: 5px;
-  margin: 10px;
-  cursor: pointer;
-  text-align: center;
   font-size: 30px;
+  float: right;
   z-index: 1;
 }
 
-.background-image {
-/* The image used */
-background-image: url("http://innovations-design.org/wp-content/uploads/2016/06/ent-lazyriver2-1920x1080-opt.jpg");
-/* Set a specific height */
-min-height: 100%;
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-/*Set the background opacity to make it slightly transparent*/
-opacity: 0.65;
+.fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%;
+    background-color: blue;
+    color: white;
 }
+
 
 /*Checks if the screen is bigger than 480 pixels but smaller than 600px due to the cascading nature of css. Changes the width of the .col- class accordingly */
 @media only screen and (min-width: 480px) {
