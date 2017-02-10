@@ -14,7 +14,7 @@ $(document).ready(function(){
   });
 
   $(".close-menu").click(function(){
-    $(".side-nav").css("width", "0%");
+    $(".side-nav").css("width", "0");
     $(".blur").css("filter", "blur(0px)");
   });
 });
