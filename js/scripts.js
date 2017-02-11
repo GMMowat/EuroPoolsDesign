@@ -20,25 +20,25 @@ $(document).ready(function(){
         //set the menuOpen variable to true because the menu is now open
         menuOpen = true;
         //Change the height of the drop-nav so that it shows on screen
-        $(".drop-nav").css("max-height", "100%");
+        $(".side-nav").css("width", "100%");
         //set a transition value so that the menu drops down in an animation
-        $(".drop-nav").css("transition", "1s");
+        $(".side-nav").css("transition", "1s");
         //After a certain amount of time remove the transition value so that the drop-nav doesn't animate anymore
         setTimeout(function () {
-          $('.drop-nav').css("transition", "initial");
+          $('.side-nav').css("transition", "initial");
         }, 500);
       }
       //if button is clicked again
-      else {
+        {
         //set menuOpen to false because the menu is closed
         menuOpen = false;
         //hide the menu by clearing the height
-        $(".drop-nav").css("max-height", "0");
+        $(".side-nav").css("width", "0");
         //add a new transition value to animate the closing of the menu
-        $(".drop-nav").css("transition", "1s");
+        $(".side-nav").css("transition", "1s");
         //After a certain amount of time remove the transition value so that the drop-nav doesn't animate anymore
         setTimeout(function () {
-          $('.drop-nav').css("transition", "initial");
+          $('.side-nav').css("transition", "initial");
         }, 500);
       }
     });
