@@ -8,11 +8,15 @@ $(window).scroll(function(){
 });
 
 $(document).ready(function(){
-  $(".open-menu").click(function(){
-    $(".side-nav").css("max-height", "100%");
-  });
-
-  $(".close-menu").click(function(){
-    $(".side-nav").css("max-height", "0");
-  });
+   menuOpen = false;
+    $(".open-menu").click(function(){
+      if(menuOpen == false) {
+        menuOpen = true;
+        $(".side-nav").css("max-height", "100%");
+      }
+      else {
+        menuOpen = false;
+        $(".side-nav").css("max-height", "0");
+      }
+    });
 });
