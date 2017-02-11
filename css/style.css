@@ -57,7 +57,6 @@ h1, h2 {
   max-height: 0;
   letter-spacing: 2px;
   font-size: 130%;
-  transition: 1s;
   top: 50px;
   z-index: 1;
   overflow-x: hidden;
@@ -74,7 +73,7 @@ h1, h2 {
 }
 
 .drop-nav a:hover {
-  color: white;
+  color: blue;
 }
 
 .open-menu {
@@ -143,4 +142,37 @@ h1, h2 {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+
+    .open-menu {
+      display: none;
+    }
+
+    .drop-nav {
+      color: white;
+      text-align: right;
+      position: absolute;
+      right: 0;
+      width: 100%;
+      max-height: 0%;
+      letter-spacing: 2px;
+      font-size: 130%;
+      transition: initial;
+      top: 50px;
+      z-index: 1;
+      overflow: initial;
+      margin: -45px 20px 0px 20px;
+      background-color: initial;
+    }
+
+    .drop-nav a {
+      color: red;
+      text-decoration: none;
+      display: inline-block;
+      padding: 15px 8px 15px 8px;
+      font-size: 15px;
+    }
+
+    .drop-nav a:hover {
+      color: white;
+    }
 }
