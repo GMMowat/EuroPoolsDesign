@@ -147,10 +147,12 @@ p {
 
     h1 {
       font-size: 30px;
+      letter-spacing: 2px;
     }
 
     h2, h3 {
       font-size: 25px;
+      letter-spacing: 2px;
     }
 
     p {
@@ -188,8 +190,9 @@ p {
       color: red;
       text-decoration: none;
       display: inline-block;
-      padding: 25px 8px 15px 8px;
-      font-size: 20px;
+      padding: 22px 8px 15px 8px;
+      font-size: 23px;
+      letter-spacing: 3px;
     }
 
     .drop-nav a:hover {
