@@ -35,7 +35,6 @@ p {
   width: 100%;
 }
 
-<<<<<<< HEAD
 .header {
   top: 0;
   left: 0;
@@ -97,8 +96,6 @@ p {
     color: white;
 }
 
-=======
->>>>>>> master
 /*Checks if the screen is bigger than 480 pixels but smaller than 600px due to the cascading nature of css. Changes the width of the .col- class accordingly */
 @media only screen and (min-width: 480px) {
   /* For Smaller Devices: */
