@@ -112,34 +112,45 @@ img {
   display: block;
 }
 
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column
+}
+
 .bgimg-1 {
 background-image: url(http://innovations-design.org/wp-content/uploads/2016/06/ent-lazyriver2-1920x1080-opt.jpg);
-min-height: 300px;
+min-height: 200px;
 }
 
 .bgimg-2 {
+  min-height: 50%;
   background-image: url(https://i.vimeocdn.com/video/520809540.jpg?mw=1920&mh=1080&q=70);
-  min-height: 200px;
+  flex-grow: 1;
 }
 
 .bgimg-3 {
   background-image: url(http://www.outslopes.com/wp-content/uploads/2016/04/Waterpark-Stock.jpg);
-  min-height: 200px;
+  min-height: 50%;
+  flex-grow: 1;
 }
 
 .bgimg-4 {
   background-image: url(https://s-media-cache-ak0.pinimg.com/originals/a6/24/e6/a624e68639d68793e3b6c5fcabcf0655.jpg);
-  min-height: 200px;
+  min-height: 50%;
+  flex-grow: 1;
 }
 
 .bgimg-5 {
   background-image: url(https://s-media-cache-ak0.pinimg.com/originals/11/b6/95/11b695467dc5233591f36129b90a867d.jpg);
-  min-height: 200px;
+  min-height: 50%;
+  flex-grow: 1;
 }
 
 .bgimg-6 {
   background-image: url(https://s-media-cache-ak0.pinimg.com/originals/af/24/ed/af24edea4e27cd9bd5b77b6201d4938f.jpg);
-  min-height: 200px;
+  min-height: 50%;
+  flex-grow: 1;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6 {
