@@ -5,8 +5,12 @@ $(window).scroll(function(){
   var sticky = $(".header"),
       scroll = $(window).scrollTop();
 
-  if (scroll > 0) sticky.addClass("fixed");
-  else sticky.removeClass("fixed");
+  if (scroll > 0) {
+    sticky.addClass("fixed");
+  }
+  else {
+    sticky.removeClass("fixed");
+  }
 });
 
 //Check if the website is ready
