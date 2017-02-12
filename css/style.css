@@ -8,13 +8,20 @@ body, html{
     box-sizing: border-box;
 }
 
-h1, h2, h3 {
+h1 {
+  font-size: 25px;
+}
+
+ h2, h3 {
   text-align: center;
   font-size: 20px;
+  letter-spacing: 1.5px;
 }
 
 p {
+  font-size: 15px;
   text-align: justify;
+  letter-spacing: 0.5px;
 }
 
 /* After each row place white space clear both sides so no content clips it. */
@@ -146,17 +153,16 @@ p {
     .col-12 {width: 100%;}
 
     h1 {
-      font-size: 25px;
+      font-size: 30px;
       letter-spacing: 1.5px;
     }
 
     h2, h3 {
-      font-size: 20px;
-      letter-spacing: 1.5px;
+      font-size: 25px;
     }
 
     p {
-      font-size: 15px;
+      font-size: 20px;
       letter-spacing: 0.5px;
       line-height: 1.5;
     }
@@ -189,8 +195,8 @@ p {
     .drop-nav a {
       color: red;
       display: inline-block;
-      padding: 16px 8px 15px 8px;
-      font-size: 18px;
+      padding: 20px 8px 15px 8px;
+      font-size: 23px;
       letter-spacing: 2px;
     }
 
