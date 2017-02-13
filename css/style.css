@@ -120,7 +120,7 @@ img {
 
 .bgimg-1 {
 background-image: url(http://innovations-design.org/wp-content/uploads/2016/06/ent-lazyriver2-1920x1080-opt.jpg);
-min-height: 200px;
+min-height: 100%;
 }
 
 .bgimg-2 {
